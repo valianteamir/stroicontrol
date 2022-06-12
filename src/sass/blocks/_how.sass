@@ -1,0 +1,45 @@
+.how
+	padding-top: 140px
+	padding-bottom: 50px
+	&__wrapper
+		display: flex
+		justify-content: space-between
+	&-preview
+		&__title
+			margin-bottom: 20px
+			text-align: left
+		&__descr
+			margin-bottom: 60px
+			max-width: 400px
+			font-size: 20px
+			line-height: 32px
+	&-list
+		margin-bottom: 30px
+		counter-reset: counter 0
+		&__item
+			position: relative
+			margin-bottom: 30px
+			list-style: none
+			&:before
+				position: absolute
+				left: -72px
+				top: 0
+				display: block
+				width: 40px
+				height: 40px
+				border: 1px solid #DADEDF
+				display: flex
+				justify-content: center
+				align-items: center
+				counter-increment: counter
+				content: counter(counter)
+		&__title
+			margin-bottom: 10px
+			font-size: 18px
+			line-height: 24px
+			color: $primary
+		&__descr
+			line-height: 24px
+			max-width: 448px
+.how-list__button:first-child
+	margin-right: 16px

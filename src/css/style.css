@@ -514,7 +514,6 @@ image {
 .made__wrapper {
   margin-right: auto;
   margin-left: 423.5px;
-  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -611,5 +610,79 @@ image {
   max-width: 340px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.75);
+}
+
+.how {
+  padding-top: 140px;
+  padding-bottom: 50px;
+}
+
+.how__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.how-preview__title {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.how-preview__descr {
+  margin-bottom: 60px;
+  max-width: 400px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.how-list {
+  margin-bottom: 30px;
+  counter-reset: counter 0;
+}
+
+.how-list__item {
+  position: relative;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.how-list__item:before {
+  position: absolute;
+  left: -72px;
+  top: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #DADEDF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  counter-increment: counter;
+  content: counter(counter);
+}
+
+.how-list__title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212B31;
+}
+
+.how-list__descr {
+  line-height: 24px;
+  max-width: 448px;
+}
+
+.how-list__button:first-child {
+  margin-right: 16px;
 }
 /*# sourceMappingURL=style.css.map */
