@@ -48,17 +48,6 @@ body {
   color: #fff;
 }
 
-.button_white {
-  border: 1px solid #fff;
-  color: #212B31;
-}
-
-.button_white:hover {
-  border: 1px solid #212B31;
-  background-color: #212B31;
-  color: #fff;
-}
-
 .button_one {
   border: 1px solid #fff;
 }
@@ -519,5 +508,108 @@ image {
 .made {
   padding-top: 140px;
   padding-bottom: 120px;
+  background-color: #212B31;
+}
+
+.made__wrapper {
+  margin-right: auto;
+  margin-left: 423.5px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.made__title {
+  margin-bottom: 50px;
+  text-align: left;
+  color: #fff;
+}
+
+.made-list {
+  padding-left: 20px;
+}
+
+.made-list__item {
+  padding-left: 20px;
+  list-style: disc;
+  list-style-image: url("/src/img/made/circle.svg");
+}
+
+.made-list__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.made-list__title {
+  margin-bottom: 10px;
+  max-width: 498px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.made-list__descr {
+  max-width: 549px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.made__buttons {
+  margin-bottom: 127px;
+}
+
+.made__button:first-child {
+  margin-right: 16px;
+  background-color: #fff;
+}
+
+.made__button:first-child:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.made__button:last-child:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.made__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.made-item {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  text-align: center;
+}
+
+.made-item__icon {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.made-item__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.made-item__descr {
+  max-width: 340px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
 }
 /*# sourceMappingURL=style.css.map */

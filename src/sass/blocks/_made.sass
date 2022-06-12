@@ -1,3 +1,65 @@
 .made
 	padding-top: 140px
 	padding-bottom: 120px
+	background-color: $primary
+	&__wrapper
+		margin-right: auto
+		margin-left: 423.5px
+		margin-bottom: 50px
+		display: flex
+		justify-content: space-between
+	&__title
+		margin-bottom: 50px
+		text-align: left
+		color: #fff
+	&-list
+		padding-left: 20px
+		&__item
+			padding-left: 20px
+			list-style: disc
+			list-style-image: url('/src/img/made/circle.svg')
+			&:not(:last-child)
+				margin-bottom: 24px
+		&__title
+			margin-bottom: 10px
+			max-width: 498px
+			font-size: 18px
+			line-height: 24px
+			color: #fff
+		&__descr
+			max-width: 549px
+			line-height: 24px
+			color: rgba(255, 255, 255, 0.75)
+	&__buttons
+		margin-bottom: 127px
+	&__button:first-child
+		margin-right: 16px
+		background-color: #fff
+		&:hover
+			background-color: transparent
+			border: 1px solid #fff
+	&__button:last-child
+		&:hover
+			border: 1px solid #fff
+			background-color: #fff
+	&__row
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+	&-item
+		flex-basis: 33%
+		text-align: center
+		&__icon
+			margin: 0 auto
+			margin-bottom: 20px
+			display: block
+			width: 48px
+			height: 48px
+		&__title
+			font-size: 18px
+			margin-bottom: 10px
+			color: #fff
+		&__descr
+			max-width: 340px
+			line-height: 24px
+			color: rgba(255, 255, 255, 0.75)
