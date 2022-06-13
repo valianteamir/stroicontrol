@@ -1,6 +1,6 @@
 .why
 	padding-top: 50px
-	padding-bottom: 60px
+	padding-bottom: 140px
 	&__title
 		margin-bottom: 17px
 	&__subtitle
@@ -30,8 +30,11 @@
 			max-width: 394px
 			line-height: 24px
 	&-slider
-		padding: 56px 25px 60px 60px
+		padding: 56px 0px 60px 43px
+		max-width: 520px
+		height: 520px
 		background-color: #f6f8f9
+		border-radius: 5px
 		&__quote
 			margin-bottom: 28px
 			max-width: 435px
@@ -48,3 +51,21 @@
 			color: $primary
 		&__descr
 			line-height: 19px
+	// &-awards
+	// 	display: flex
+	// 	justify-content: space-between
+	// 	padding-top: 60px
+	// 	&__item
+	// 		flex-basis: 25%
+	// 	&__image
+	// 		margin: 0 auto
+	// 		margin-bottom: 32px
+	// 		display: block
+	// 		&:nth-child(2)
+	// 			margin-bottom: 50px
+.swiper
+	&-pagination-bullet-active
+		background-color: #036FC7
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets, .swiper-pagination-bullet
+	bottom: 60px
+	left: -200px
