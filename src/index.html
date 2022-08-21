@@ -105,12 +105,18 @@
 		<section class="companies">
 			<div class="container">
 				<div class="companies__wrapp">
-					<img src="img/companies/company-1.png" alt="company image" class="companies__image"><img
-						src="img/companies/company-2.png" alt="company image" class="companies__image"><img
-						src="img/companies/company-3.png" alt="company image" class="companies__image"><img
-						src="img/companies/company-4.png" alt="company image" class="companies__image"><img
-						src="img/companies/company-5.png" alt="company image" class="companies__image"><img
-						src="img/companies/company-6.png" alt="company image" class="companies__image">
+					<div class="companies__item"><img src="img/companies/company-1.png" alt="company 1 image"
+							class="companies__image"></div>
+					<div class="companies__item"><img src="img/companies/company-2.png" alt="company 2 image"
+							class="companies__image"></div>
+					<div class="companies__item"><img src="img/companies/company-3.png" alt="company 3 image"
+							class="companies__image"></div>
+					<div class="companies__item"><img src="img/companies/company-4.png" alt="company 4 image"
+							class="companies__image"></div>
+					<div class="companies__item"><img src="img/companies/company-5.png" alt="company 5 image"
+							class="companies__image"></div>
+					<div class="companies__item"><img src="img/companies/company-6.png" alt="company 6 image"
+							class="companies__image"></div>
 				</div>
 			</div>
 		</section>
@@ -127,7 +133,7 @@
 								материалы,
 								благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте.</p>
 						</div>
-						<img src="img/definition/image-1.png" alt="image" class="definition__image">
+						<img src="img/definition/image-1.png" alt="image" class="definition__image definition__image_first">
 					</div>
 					<div class="definition__item">
 						<div class="definition-text definition-text_second">
@@ -146,7 +152,7 @@
 								того, как обстоят дела в данный момент. Больше никаких ручных отчетов по заливке бетона или ежемесячной
 								проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо усилий.</p>
 						</div>
-						<img src="img/definition/image-3.png" alt="image" class="definition__image">
+						<img src="img/definition/image-3.png" alt="image" class="definition__image definition__image_third">
 					</div>
 				</div>
 			</div>
@@ -204,7 +210,7 @@
 						<div class="shipping-text">
 							<h4 class="shipping-text__title">Отделка</h4>
 							<p class="shipping-text__descr">Материалы поступают точно в срок, маркируются и детально отслеживаются для
-								установки./p>
+								установки.</p>
 						</div>
 					</div>
 					<div class="shipping__item">
@@ -291,10 +297,13 @@
 			</div>
 		</section>
 		<section class="made">
-
+			<!-- 
 			<div class="made__wrapper">
+				<img src="img/made/background.png" alt="background image" class="made__image">
+			</div> -->
+			<div class="container">
+				<h2 class="made__title section-title">Создан для строительства</h2>
 				<ul class="made-list">
-					<h2 class="made__title section-title">Создан для строительства</h2>
 					<li class="made-list__item">
 						<h4 class="made-list__title">Хорошо виден в любых условиях</h4>
 						<p class="made-list__descr">Независимо от того, солнечно или темно, найдется подходящий режим экрана</p>
@@ -314,9 +323,6 @@
 							настенные экраны.</p>
 					</li>
 				</ul>
-				<img src="img/made/background.png" alt="background image" class="made__image">
-			</div>
-			<div class="container">
 				<div class="made__buttons"><button class="made__button button button_o">Заказать демо</button><button
 						class="made__button button button_one">Подробнее</button></div>
 				<div class="made__row">
@@ -452,6 +458,7 @@
 								</div>
 							</div>
 						</div>
+						<div class="why-button-next swiper-button-next"></div>
 						<div class="why-slider__pagination swiper-pagination"></div>
 					</div>
 				</div>
@@ -522,6 +529,15 @@
 			</div>
 		</div>
 	</footer>
+	<div class="modal-bg">
+		<div class="modal">
+			<button class="modal__close">&times;</button>
+			<h4 class="modal__title">Это демо-версия страницы</h4>
+			<p class="modal__text">Поэтому к сожалению, кнопка не работает 🙁</p>
+		</div>
+		<!-- /.modal -->
+	</div>
+	<button class="menu-button"></button>
 </body>
 
 </html>
